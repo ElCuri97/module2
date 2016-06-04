@@ -52,8 +52,7 @@
         background-color: orange;
       }
       .parrafo{
-        margin: 30px 10% 15px 15px;
-        height: 110px;
+        padding: 25px;
       }
 
       /*Desktop View*/
@@ -91,8 +90,5 @@
         }
         #d3{
           width: 100%;
-        }
-        .parrafo{
-          height: auto;
         }
       }
