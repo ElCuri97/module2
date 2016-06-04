@@ -5,12 +5,40 @@
     <title>My first program in GitHub</title>
     <link rel="stylesheet" href="css/stylesheet.css">
     <style>
+      *{
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
       
+      h1{
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      
+      .contenedor{
+        width: 100%;
+      }
+      div{
+        margin-right: 15px;
+      }
+      
+      #d1{
+        float: left;
+        background-color: red;
+      }
+      #d2{
+        float: left;
+        background-color: blue;
+      }
+      #d3{
+        float: left;
+        bakcground-color: gray;
+      }
     </style>
   </head>
   <body>
     <h1>The menu</h1>
-    <div id="contenedor">
+    <div class="contenedor">
       <div id="d1">Opcion 1 Contenido de la Opcion 1, patatas con queso</div>
       <div id="d2">Opcion 2 Contenido de la Opcion 2, patatas con frijoles</div>
       <div id="d3">Opcion 3 Contenido de la Opcion 3, patatas con patatas</div>
