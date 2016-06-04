@@ -18,6 +18,7 @@ h1{
   margin-left=15px;
   margin-right=15px;
 }
-p#contenedor{
+div#contenedor{
   border= 1px solid black;
+  width= 100%;
 }
