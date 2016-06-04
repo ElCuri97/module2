@@ -15,10 +15,12 @@ h1{
   background-color: #0090FF;
   height: 40%;
   margin-bottom: 15px;
+  position: relative;
+  top: 20%;
 }
 
 p{
   width: 65px;
   height: 65px;
-  
+  position: absolute;
 }
