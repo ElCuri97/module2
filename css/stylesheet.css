@@ -1,1 +1,98 @@
+*{
+        box-sizing: border-box;
+        font-family: Helvetica;
+      }
+      
+      h1{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      
+      .contenedor{
+        width: 100%;
+      }
+      .margenafuera{
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        width: 100%;
+      }
+      .margendentro{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top:15px;
+        margin-bottom: 15px;
+        border: 1px solid black;
+        position: relative;
+      }
+      .fondo{
+        background-color: gray;
+      }  
+      .pestaña{
+        position: absolute;
+        top:0px;
+        right:0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 120px;
+        border: 1px solid black;
+        font-size: 125%;
+        text-align: center;
+        font-style: bold;
+      } 
+      .pestaña1{
+        background-color: red;
+      }
+      .pestaña2{
+        background-color: blue;
+      }
+      .pestaña3{
+        background-color: orange;
+      }
+      .parrafo{
+        margin: 30px 10% 15px 15px;
+        height: 110px;
+      }
 
+      /*Desktop View*/
+      
+      @media (min-width: 992px){
+        #d1{
+          width: 33.33%;
+        }
+        #d2{
+          width: 33.33%;
+        }
+        #d3{
+          width: 33.33%;
+        }
+      }
+      /*Tablet View*/
+      @media (min-width: 768px) and (max-width: 991px){
+        #d1{
+          width: 50%;
+        }
+        #d2{
+          width: 50%;
+        }
+        #d3{
+          width: 100%;
+        }
+      }
+      /*Mobile view*/
+      @media (max-width: 767px){
+        #d1{
+          width: 100%;
+        }
+        #d2{
+          width: 100%;
+        }
+        #d3{
+          width: 100%;
+        }
+        .parrafo{
+          height: auto;
+        }
+      }
