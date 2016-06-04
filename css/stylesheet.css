@@ -11,16 +11,21 @@ h1{
 }
 
 #contenedor{
-  border:; 1px solid black;
-  background-color: #0090FF;
+  border: 1px solid black;
+  background-color: #0022FF;
   height: 40%;
   margin-bottom: 15px;
-  position: relative;
+  position: absolute;
   top: 20%;
 }
 
 p{
   width: 65px;
   height: 65px;
-  position: absolute;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+#p1{
+  background-color: red;
 }
